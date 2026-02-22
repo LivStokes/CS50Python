@@ -1,0 +1,32 @@
+# Conditionals
+- What are cibdutuibals?
+Conditionals are the conditions that you give variables.
+
+```
+> greater than
+>= greater or equal than
+< less than
+<= less or equal than
+== equal to
+!= not equal to
+```
+
+if conditions:
+- Do not take parenthesis.
+- Will check if the condition is a boolean true or false and then inside the function is where you want the statement to take action.
+
+else conditions:
+
+elif conditions:
+
+
+```
+score = int(intput("Score: "))
+
+if 90 <= score <= 100:
+    print("Grade: A")
+elif 80 <= score < 90:
+    print("Grade: B")
+else:
+    print("Grade: F")
+```

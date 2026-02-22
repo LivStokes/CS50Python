@@ -85,6 +85,5 @@ def main()
     print("world")
 main()
 ```
-The return() function returns a value.
 
-
+What is a side effect?

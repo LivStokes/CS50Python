@@ -11,6 +11,7 @@ Writing the first python script of the course.
 
 ## Functions
 Functions gets computer to do things.
+It is writing things that take inputs and produce outputs.
 - Print() is a function.
 Arguments are inputs to the function.
 - Printf("hello") the hello is an argument.
@@ -18,11 +19,10 @@ Arguments are inputs to the function.
 Debugging is great with print(). It shows where various bugs are in the code. E.g. prints out what value is in a variable at the given time like in a loop.
 Commenting code is also very important. Its great for things like pseudocode or going through thoughts. It helps structure.
 
-# Is a comment in python for lines.
-""" Is also a comment in python for blocks. 
+- # Is a comment in python for lines.
+- """ Is also a comment in python for blocks. 
 
-Example of a python script in hello.py.
-
+Example of a python script in hello.py:
 Line of text for python documentation for the print function:
 - print(*objects, sep=' ', end='\n', file=sys.stdout, Flush=False)
 What does this line do?
@@ -37,3 +37,54 @@ file = What file I want the message to go to.
 Flush = The setting for when the message gets released.
     - If False, it waits till the buffer is full or the progamm is finished before dumping the text to the destination.
     - If Treue, it forces the buffer to empty immediatly.
+
+How to write use interactive mode in python.
+You dont have to keep running python in a file you can access it through the terminal.
+It executes commands interactively:
+- Simply write python in the terminal.
+- It will then show >>> In the terminal for you to execute commands.
+- Writes prompts, line by line.
+With this python interactive mode, you can use it as a calculator, or to print things and more.
+
+In python scripts in a .py file,
+When using calculations on x and y, python sees everthing as strings. So it is important to include (int).
+E.g.
+x + y will concatenate string numbers. int(x) + int(y) will add numbers.
+
+Documentation for round:
+Takes as input a number, and then rounds it to the nearest integer.
+round(number[, ndigits])
+- The first argument is a number, just takes one number.
+- [ means that its something optional. e.g. if tyou want to specify the number of digits that you want the round function.
+- The second arguments is the number of digits you want to pass to round to.
+
+Key note with Python vs C.
+The way they compile is different.
+In C, if there are any mistakes in the whole script, when you try compile the file it wont work.
+With python, the script will run and execute line by line but then break once the script has an error.
+
+## def
+What is def? def is short for define. - You can create and invent your own functions using def.
+def hello()
+- This defines a function called hello.
+How to use def()?
+```
+def hello()
+    print("hello,")
+
+name = input(Whats your name? ")
+hello()
+print(name)
+```
+
+When defining a function, I can then print it out by calling it.
+e.g.
+```
+def main()
+    print("hello")
+    print("world")
+main()
+```
+The return() function returns a value.
+
+

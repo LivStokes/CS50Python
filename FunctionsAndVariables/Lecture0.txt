@@ -1,0 +1,39 @@
+# Week 0 of CS50x Lectures.
+
+## Introduction
+Writing the first python script of the course.
+- In a file called hello.py write print("hello, world.")
+    How to make file:
+    - In the terminal where I want the file to be located, print $code hello.py 
+    How to run the command:
+    - Compile through interpreter (translates code to binary for computer to understand) - $python hello.py
+    - This should print hello, world to the terminal.
+
+## Functions
+Functions gets computer to do things.
+- Print() is a function.
+Arguments are inputs to the function.
+- Printf("hello") the hello is an argument.
+
+Debugging is great with print(). It shows where various bugs are in the code. E.g. prints out what value is in a variable at the given time like in a loop.
+Commenting code is also very important. Its great for things like pseudocode or going through thoughts. It helps structure.
+
+# Is a comment in python for lines.
+""" Is also a comment in python for blocks. 
+
+Example of a python script in hello.py.
+
+Line of text for python documentation for the print function:
+- print(*objects, sep=' ', end='\n', file=sys.stdout, Flush=False)
+What does this line do?
+- * = all.
+- objects = Gets the objects and prints them.
+- sep = What i want to seperated it by.
+- end = What the line ends with. 
+- \n is new line.
+- File and flush arguments control where message goes and when it actually shows up.
+file = What file I want the message to go to.
+    - sys.stdout is the users standard output/terminal.
+Flush = The setting for when the message gets released.
+    - If False, it waits till the buffer is full or the progamm is finished before dumping the text to the destination.
+    - If Treue, it forces the buffer to empty immediatly.

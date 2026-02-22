@@ -1,0 +1,1 @@
+This Section is based on Functions, Arguments, Side Effects, Bugs, Return Vaues, Variables, Comments, Pseudocode, Parameters, Operators, Interactive Mode, Score.
